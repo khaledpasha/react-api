@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+p{
+  position: relative;
+  right: 250px;
+  margin-left: 20px;
+}
+.inputColor{
+padding-left: 50px;
+}
+.fas{
+position: absolute;
+top: 5px;
+padding-left: 5px;
+}
+.head{
+  background-color: black;
+
+}
+th {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+td {
+  font-size: 16px;
+  color: #808080;
+  line-height: 1.4;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-collapse: collapse;
+}
+
+.column1 {
+  width: 50px;
+}
+
+.column2 {
+  width: 170px;
+}
+
+.column3 {
+  width: 170px;
+}
+
+.column4 {
+  width: 170px;
+}
+
+.column5 {
+  width: 300px;
+}
+
+#info-wrapper {
+  width: 30%;
+  padding: 0 0 20px 0;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  position: fixed;
+  top: 100px;
+  right: 50px;
+}
+
+h1 {
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+#info-wrapper p {
+  width: 100%;
+  font-size: 20px;
+  font-style: italic;
+  color: gray;
+  margin-left: 200px;
+}
+
+#info-content {
+  /* display: none; */
+  margin-top: 10px;
+}
+
+#info-wrapper > div {
+  margin-bottom: 5px;
+}
+
+
+textarea {
+  white-space: normal;
+  width: 100%;
+  z-index: 2;
+  margin: 0;
+  border: 2px solid black;
+  border-radius: 0;
+  color: #444;
+  background-color: transparent;
+  overflow: auto;
+  resize: none;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.info:hover{
+  cursor: pointer;
+  background-color: lightskyblue;
+}
+
+.active{
+  background-color: red;
+  color: #fff;
+}
